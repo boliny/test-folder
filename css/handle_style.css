@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    max-width: 1350px;
+}
+.navbar-light .navbar-brand img{
+    width: 65%;
+}
+
+.navbar{
+    font-weight: 700;
+    font-size: .8rem;
+    letter-spacing: .1rem;
+    background: rgba(255, 255, 255, 0.6) !important;
+
+}
+.nav-brand img{
+    height: 2rem;
+}
+.navbar-nav li{
+    padding-right: .7rem;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: white;
+    padding-right: .7rem;
+}
+.navbar-collapse .nav-item .nav-link{
+    color: white;
+}
+.navbar-collapse .nav-item .nav-link:hover{
+    color: white;
+}
+.navbar-light .navbar-nav .active > .nav-link,
+ .navbar-light .navbar-nav .nav-link.active,
+ .navbar-light .navbar-nav .nav-link.show,
+ .navbar-light .navbar-nav .show > .nav-link{
+    color: white;
+}
+.navbar-light .navbar-brand img ,.navbar-dark .navbar-nav .nav-link{
+    padding: 25px;
+    
+}
+.custom-carousel{
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    background-color: #080d15;
+    opacity: .7;
+}
+.btn-color {
+    color: #fff;
+    background-color: #00c3da;
+    padding: 10px;
+}
+.btn-color:hover{
+    color: #fff;
+    transition-delay: .2s;
+}
+.btn-light-out {
+    color: #fff;
+    border-color: #fff;
+    padding: 10px;
+}
+.btn-light-out:hover{
+    color: rgb(0, 0, 0);
+    background-color: #fff;
+    transition-delay: .2s;
+}
+.btn-outline-primary{
+    color: black;
+    border-color: black;
+    padding: 10px;
+    border-radius: 0%;
+}
+.btn-outline-primary:hover{
+    color: #fff;
+    background-color: black;
+    transition-delay: .2s;
+}
+.carousel-slide .carousel-inner .carousel-item{
+    height: 100vh;
+}
+.carousel-inner img{
+    width: 100%;
+    height: 100%;
+}
+.carousel-item{
+    height: 100vh;
+}
+.carousel-caption{
+    position: absolute;
+    top: 35%;
+    text-transform: uppercase;
+    width: 100%;
+    right: 0;
+    left: 0;
+}
+.carousel-caption h1{
+    font-size: 6rem;
+    font-weight: 200;
+    letter-spacing: .3rem;
+    color: white;
+    font-weight: bolder;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+
+}
+.carousel-caption p{
+    color: white;
+    font-weight: 100;
+    letter-spacing: .1rem;
+}
+.img-container{
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    
+}
+.img-container:hover .img-caption{
+opacity: 1;
+visibility: visible;
+}
+.img-caption{
+    background: linear-gradient(to bottom, rgba(0, 132, 255, 0.7) 0%, rgba(3, 154, 255, 0.7) 100%);
+    color: white;
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;    
+}
+.img-caption p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+}
+.works{
+    height: 80vh;
+    background-color: rgb(122, 120, 120);
+    color: white;
+    text-transform: uppercase;
+  }
+  .list-group .list-group-item{
+    background: none;
+    border: none;
+    text-transform: none;
+  }
+  i{
+    color: white;
+  }
+  .list-group-item span{
+      letter-spacing: .7rem;
+  }
+  .card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(29, 29, 29, 0.19);
+  }
+  .card h1{
+      font-weight: bold;
+  }
+
